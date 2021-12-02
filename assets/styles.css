@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+header {
+  position: fixed;
+  width: 100%;
+}
+.menu {
+  width: 100%;
+  height: 80px;
+  background: coral;
+}
+.menu h3 {
+  font-size: 2rem;
+  display: inline;
+  padding-top: 1.2rem;
+  padding-left: 1rem;
+  float: left;
+}
+.menu .links {
+  display: inline;
+  float: right;
+  padding: 2rem;
+}
+.menu a {
+  margin: 1rem;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.inicio {
+  background-image: url("./img/fondo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 70vh;
+}
+.inicio h1 {
+  color: white;
+  text-align: center;
+  padding-top: 13rem;
+  font-size: 10rem;
+  text-shadow: 10px 10px black;
+}
+.inicio .boton {
+  width: 10%;
+  margin: 0 auto;
+}
+
+.boton button {
+  padding: 0.5rem;
+  background: wheat;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: black;
+}
+.tipos {
+  padding-bottom: 3rem;
+}
+.tipos h2 {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.9rem;
+}
+.pan-1 {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+.pan-1 .img {
+  width: 800px;
+  height: 400px;
+  float: left;
+  margin-right: 1rem;
+}
+
+.img img {
+  width: 100%;
+}
+.pan-1 .descripcion {
+  padding-top: 2rem;
+}
+.pan-1 .descripcion p {
+  font-size: 1.5rem;
+}
+.pan-1 h3 {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+.pan-2 {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+.pan-2 .img {
+  width: 800px;
+  height: 500px;
+  float: right;
+  padding-top: 5rem;
+  margin-left: 1rem;
+}
+
+.pan-2 .img img {
+  height: 100%;
+}
+
+.pan-2 .descripcion {
+  padding-top: 15rem;
+}
+.pan-2 .descripcion p {
+  font-size: 1.5rem;
+}
+.pan-2 h3 {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+.pan-3 {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+.pan-3 .img {
+  width: 800px;
+  height: 490px;
+  float: left;
+  padding-top: 5rem;
+  margin-right: 1rem;
+}
+
+.pan-3 .img img {
+  height: 100%;
+}
+
+.pan-3 .descripcion {
+  padding-top: 15rem;
+}
+.pan-3 .descripcion p {
+  font-size: 1.5rem;
+}
+.pan-3 h3 {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.nosotros {
+  padding-top: 3rem;
+  background: whitesmoke;
+  padding-bottom: 3rem;
+}
+.nosotros h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.nosotros .info {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.nosotros .formulario h3 {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.nosotros .formulario form {
+  width: 15%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-left: 11rem;
+}
+.formulario form input {
+  display: block;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.formulario form select {
+  display: block;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.info p {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 10rem;
+}

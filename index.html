@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <title>Mis primeros panes</title>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <h3>Mis primeros panes</h3>
+        <div class="links">
+          <a href="#inicio">Inicio</a>
+          <a href="#tipos">Panes</a>
+          <a href="#nosotros">Nosotros</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="inicio" id="inicio">
+        <h1>Mis primeros panes</h1>
+        <div class="boton">
+          <button>
+            <a href="#tipos"> Conoce más </a>
+          </button>
+        </div>
+      </section>
+      <section class="tipos" id="tipos">
+        <h2>Tipos de Panes</h2>
+        <div class="pan-1">
+          <div class="img">
+            <img src="./assets/img/cereales.png" alt="" />
+          </div>
+          <div class="descripcion">
+            <h3>Pan de cereales</h3>
+            <p>
+              El pan de cereales es aquel en el que se emplea harina de trigo
+              mezclada con una proporción mínima del 51 % de harina de otro
+              cereal. Por este motivo, recibe el nombre de este último
+              ingrediente. El pan de semillas incorpora semillas enteras o
+              fraccionadas de cereales y oleaginosas como, por ejemplo, de
+              girasol, sésamo, lino… La incorporación de las semillas puede ser
+              en la masa o en la superficie, pero siempre en forma de semillas
+              apreciables y nunca molidas.
+            </p>
+          </div>
+        </div>
+        <div class="pan-2">
+          <div class="img">
+            <img src="./assets/img/baguete.png" alt="" />
+          </div>
+          <div class="descripcion">
+            <h3>baguete</h3>
+            <p>
+              igual que la pistola. Es un producto hecho con los mismos
+              ingredientes y un proceso similar, solo que las baguetes tienen
+              una masa más flexible por el tipo de harina que se utiliza y esto
+              permite poder alargarlas más. Por definición, es un tipo de pan
+              poco cocido y de consumo muy inmediato, ya que la corteza es muy
+              fina, con greña poco profunda, miga blanca y esponjosa, y con un
+              alveolado similar al de la barra.
+            </p>
+          </div>
+        </div>
+        <div class="pan-3">
+          <div class="img">
+            <img src="./assets/img/candeal.png" alt="" />
+          </div>
+          <div class="descripcion">
+            <h3>Pan de candeal</h3>
+            <p>
+              El pan candeal, sobado o bregado es un tipo de pan tradicional de
+              algunas zonas de España que se elaboraba habitualmente con harina
+              de trigo candeal (trigo duro). Por su aroma, sabor e historia, se
+              considera un emblema de la panadería tradicional española. Se
+              caracteriza por una miga suave, de textura densa y prieta, con una
+              alveolatura pequeña y poca hidratación. La corteza es fina,
+              crujiente, de superficie lisa y color dorado que se presenta en
+              muchas ocasiones con greñas (cortes superficiales) en forma
+              geométrica. El opuesto al pan candeal es el pan de flama, hecho
+              con trigo blando. Los panes candeales se comercializan en formato
+              redondo, barra, cuadrado, como rosca, espigas o trenzas, entre
+              otras presentaciones.​ Su fabricación no es muy rentable, ya que
+              la proporción agua-harina es baja. Requiere más cantidad de harina
+              que otros y es el pan con la hidratación más baja y con un mayor
+              coste de materia prima. En estos momentos (2021), el trigo candeal
+              apenas se siembra debido a la baja rentabilidad que proporciona a
+              los agricultores.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="nosotros" id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <div class="info">
+          <p>
+            Empresa dedicada a la elaboracion y distribucion de panes a lo largo
+            de la republica de Panama, para mas info llamar a: +507 6238-9334
+          </p>
+        </div>
+        <div class="formulario">
+          <h3>Contactanos</h3>
+          <form id="form">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" placeholder="Nombre.." id="nombre" />
+            <label for="Apellido">Apellido</label>
+            <input
+              type="text"
+              name="Apellido"
+              placeholder="Apellido.."
+              id="apellido"
+            />
+            <label for="Correo">Correo</label>
+            <input type="email" name="Correo" placeholder="Correo.." />
+            <label for="cantidad">Cantidad de panes</label>
+            <input type="number" id="cantidad" min="1" max="10" />
+            <label for="panes">Tipo de pan</label>
+            <select name="panes" id="panes">
+              <option value="cereal">Pan de cereales</option>
+              <option value="baguete">baguete</option>
+              <option value="candeal">Pan candeal</option>
+            </select>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
