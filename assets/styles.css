@@ -38,17 +38,17 @@ header {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  height: 70vh;
+  height: 100vh;
 }
 .inicio h1 {
   color: white;
   text-align: center;
   padding-top: 13rem;
-  font-size: 10rem;
+  font-size: 5rem;
   text-shadow: 10px 10px black;
 }
 .inicio .boton {
-  width: 10%;
+  width: 15%;
   margin: 0 auto;
 }
 
@@ -56,7 +56,7 @@ header {
   padding: 0.5rem;
   background: wheat;
   border-radius: 5px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: black;
 }
 .tipos {
@@ -73,8 +73,8 @@ header {
   padding-top: 1rem;
 }
 .pan-1 .img {
-  width: 800px;
-  height: 400px;
+  width: 20rem;
+  height: 15rem;
   float: left;
   margin-right: 1rem;
 }
@@ -82,9 +82,7 @@ header {
 .img img {
   width: 100%;
 }
-.pan-1 .descripcion {
-  padding-top: 2rem;
-}
+
 .pan-1 .descripcion p {
   font-size: 1.5rem;
 }
@@ -98,8 +96,8 @@ header {
   padding-top: 1rem;
 }
 .pan-2 .img {
-  width: 800px;
-  height: 500px;
+  width: 20rem;
+  height: 15rem;
   float: right;
   padding-top: 5rem;
   margin-left: 1rem;
@@ -110,7 +108,7 @@ header {
 }
 
 .pan-2 .descripcion {
-  padding-top: 15rem;
+  padding-top: 5rem;
 }
 .pan-2 .descripcion p {
   font-size: 1.5rem;
@@ -125,8 +123,8 @@ header {
   padding-top: 1rem;
 }
 .pan-3 .img {
-  width: 800px;
-  height: 490px;
+  width: 20rem;
+  height: 15rem;
   float: left;
   padding-top: 5rem;
   margin-right: 1rem;
@@ -137,7 +135,7 @@ header {
 }
 
 .pan-3 .descripcion {
-  padding-top: 15rem;
+  padding-top: 5rem;
 }
 .pan-3 .descripcion p {
   font-size: 1.5rem;
@@ -166,7 +164,7 @@ header {
   padding-top: 1.5rem;
 }
 .nosotros .formulario form {
-  width: 15%;
+  width: 25%;
   margin: 0 auto;
   padding-top: 1rem;
   padding-left: 11rem;
